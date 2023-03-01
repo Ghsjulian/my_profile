@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="G H S J U L I A  N | Ghs Julian | Web Developer And Designer | Ghs Julian Programmer | PHP Developer & Programmer | Programmer Ghs Julian"
+    />
+    <meta
+      name="author"
+      content="G H S J U L I A  N | Ghs Julian | Web Developer And Designer | Ghs Julian Programmer | PHP Developer & Programmer | Programmer Ghs Julian"
+    />
+    <title>Ghs</title>
+    <link rel="stylesheet" type="text/css" href="css/w3.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+    <link rel="stylesheet" href="css/w3-theme-teal2.css" />
+    <script src="router.js"></script>
+    <script type="module" src="./js/MAIN.JS"></script>
+  </head>
+  <body class="w3-light-grey">
+    <div id="app">
+      <div class="w3-topnav w3-large nav">
+        <strong style="-webkit-text-stroke: 1px #ffffff">WEB DEVELOPER</strong>
+        <a onclick="route()" href="/">Home</a>
+        <a onclick="route()" href="/profile">Profile</a>
+        <a onclick="route()" href="/notification">Notification</a>
+        <a onclick="route()" href="/login">Login</a>
+        <a onclick="route()" href="/register">Registration</a>
+        <a onclick="route()" href="/about">Abou Me</a>
+        <button class="mobile-nav-toggle" id="nav_btn">=</button>
+      </div>
+      <br /><br />
+      <div id="header">
+        <div class="d-flex flex-column">
+          <div class="profile">
+            <img
+              src="images/logo1.png"
+              alt=""
+              class="img-fluid rounded-circle"
+            />
+            <h1 class="text-light"><a href="#">Ghs Julian</a></h1>
+            <div class="social-links mt-3 text-center">
+              <center>
+                <a href="#" class="twitter"><i class="bx bxl-twitter">t</i></a>
+                <a href="#" class="facebook"
+                  ><i class="bx bxl-facebook">f</i></a
+                >
+                <a href="#" class="instagram"
+                  ><i class="bx bxl-instagram">i</i></a
+                >
+                <a href="#" class="google-plus"
+                  ><i class="bx bxl-skype">s</i></a
+                >
+                <a href="#" class="linkedin"
+                  ><i class="bx bxl-linkedin">l</i></a
+                >
+              </center>
+            </div>
+          </div>
+
+          <nav id="navbar" class="nav-menu navbar">
+            <ul>
+              <a id="link" onclick="route()" href="/">Home</a>
+              <a onclick="route()" id="link" href="/profile">Profile</a>
+              <a onclick="route()" id="link" href="/notification"
+                >Notification</a
+              >
+              <a onclick="route()" id="link" href="/login">Login</a>
+              <a onclick="route()" id="link" href="/register">Registration</a>
+              <a onclick="route()" id="link" href="/about">Abou Me</a>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <br />
+      <!---------------->
+      <div id="main" class="w3-container w3-center"></div>
+      <!---------------->
+    </div>
+    <script type="module" src="./js/nav.js"></script>
+    <script type="module" src="./js/index.js"></script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
